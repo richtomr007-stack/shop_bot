@@ -1,5 +1,3 @@
 python-telegram-bot
 openai
-fastapi
-uvicorn
-psycopg2-binary
+
