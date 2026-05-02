@@ -1,13 +1,7 @@
 import os
 
-print("🚀 BOT STARTED")
+print("🚀 START")
 
-TOKEN = os.getenv("7960690278:AAE2rV3DO4xSs6cpijt6RYDFp_mz-9ce-PQ")
+print("ENV ALL:", os.environ)
 
-print("🔑 TOKEN =", TOKEN)
-
-if not TOKEN:
-    print("❌ TOKEN НЕ НАЙДЕН")
-    exit()
-
-print("✅ TOKEN НАЙДЕН, БОТ ГОТОВ")
+print("DONE")
