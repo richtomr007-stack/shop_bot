@@ -28,8 +28,8 @@ threading.Thread(target=run_server, daemon=True).start()
 # ========================
 # CONFIG
 # ========================
-TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+TOKEN = os.getenv("7960690278:AAE2rV3DO4xSs6cpijt6RYDFp_mz-9ce-PQ")
+ADMIN_ID = int(os.getenv("8712749134", "0"))
 
 ORDERS_FILE = "orders.json"
 
