@@ -24,7 +24,7 @@ def run_server():
     HTTPServer(("0.0.0.0", port), Handler).serve_forever()
 
 threading.Thread(target=run_server, daemon=True).start()
-
+ 
 # ========================
 # CONFIG
 # ========================
